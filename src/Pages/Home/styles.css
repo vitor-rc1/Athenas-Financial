@@ -1,0 +1,109 @@
+
+.logo {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;     
+}
+
+.logo img {
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid #E6E6F0;
+    border-radius: 5rem; 
+    
+}
+.logo p {
+    font-weight: bold;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    background: #F8F8FC;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+    border: 1px solid #E6E6F0;
+}
+
+.searchBox {
+    height: 3.6rem;
+    margin-top: 0.8rem;
+    border-radius: 0.8rem;
+    outline: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.searchBox input {
+    background: #F8F8FC;
+    border: 1px solid #E6E6F0;
+    outline: 0;
+    border-radius: 0.8rem; 
+    padding-left: 1rem;
+    width: 400px;
+    height: 3.0rem;
+    font: 1.5rem Archivo;
+    
+}
+
+.searchBoxButton {
+    position: relative;
+    top: 0.7rem;
+    right: 3rem;
+    background: none;
+    border: 0;
+    border-radius: 0.8rem;
+    transition: background-color 0.2s;
+    
+}
+
+.searchBoxButton:hover {
+    background: rgba(129, 125, 125, 0.644);
+}
+
+.searchBox button img {
+    width: 2.3rem;
+    height: 2.3rem;
+    
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;  
+}
+.tabela {
+    
+    padding: 30px;
+    background: #FFFFFF;
+    border-radius: 0.8rem;
+    overflow: hidden;
+
+}
+.grafico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+.tabela h2{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+}
+
+@media(min-width: 700px){
+    .grafico{
+        flex-direction: row;
+    }
+}
